@@ -1,0 +1,64 @@
+.containers{
+    background-color: #2E2628;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+}
+.userBox{
+    text-align: center;
+    width: 250px;
+    margin: 100px 100px;
+    background-color: #E52D62;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    line-height: 50px;
+}
+.userBox img{
+    width: 100%;
+    border-radius: 900px;
+}
+.userBox p{
+    font-weight: bold;
+}
+.userBox h5{
+    font-size: 20px;
+    color: burlywood;
+}
+.userBox span{
+    font-style: italic;
+    color: rgb(40, 39, 39);
+}
+.productBuy{
+    margin-top: 50px;
+    background-color: brown;
+    display: flex;
+}
+.boxBuy{
+    width: 60%;
+}
+.productBuy .boxImg{
+    width: 200px;
+    height: 200px;
+}
+.boxTitle{
+   margin-left: 50px;
+}
+.boxImg img{
+    width: 100%;
+}
+h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.total h3{
+    color: red;
+    margin-top: 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.total{
+    text-align: center;
+    background-color: black;
+}

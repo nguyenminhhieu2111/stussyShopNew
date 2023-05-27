@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+
+}
+.logoss{
+    width: 20%;
+    margin: 0px auto;
+}
+.full{
+    width: 100wh;
+    height: 100vh;
+    background-color: #DE3163;
+    overflow: hidden;
+}
+.content{
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 2;
+}
+.content span{
+    color:white;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+p{
+    font-size: 25px;
+}
+.content h5{
+   font-size: 20px;
+   transition: 0.5s ease-in-out;
+   color: cadetblue;
+}
+a{
+    text-decoration: none;
+}
+.content h5:hover{
+    color: brown;
+}

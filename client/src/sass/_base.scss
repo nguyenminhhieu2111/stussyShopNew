@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+@import './variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: "Poppins";
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+ul{
+    list-style-type: none;
+}
+@mixin flex($align-tem,$justify-content){
+    display: flex;
+    align-items: $align-tem;
+    justify-content: $justify-content;
+}
+@mixin mobie{
+    @media only screen and (max-width:$mobile-width) {
+        @content;
+        
+    }
+}
+@mixin table {
+    @media only screen and (max-width:$table-width) {
+        @content;
+        
+    }
+}
